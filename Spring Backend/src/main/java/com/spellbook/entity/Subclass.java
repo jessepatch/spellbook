@@ -16,4 +16,22 @@ public class Subclass {
 	private String subclassName;
 	@Column(name = "url")
 	private String url;
+	public int getSubclassId() {
+		return subclassId;
+	}
+	public void setSubclassId(int subclassId) {
+		this.subclassId = subclassId;
+	}
+	public String getSubclassName() {
+		return subclassName;
+	}
+	public void setSubclassName(String subclassName) {
+		this.subclassName = subclassName;
+	}
+	public String getUrl() {
+		return url;
+	}
+	public void setUrl(String url) {
+		this.url = url;
+	}
 }
