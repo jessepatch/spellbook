@@ -8,4 +8,9 @@ public class HomeController {
 	public Object getLoginPage() {
 		return null;
 	}
+	
+	@RequestMapping(value = "home")
+	public Object getHomePage() {
+		return null;
+	}
 }
